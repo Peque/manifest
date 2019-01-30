@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="github.com" fetch="https://github.com/" />
+
+<!-- LineageOS -->
+<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-15.1" remote="github.com" />
+
+<!-- Devices -->
+<project path="device/motorola/osprey" name="moto8916/android_device_motorola_osprey" revision="lineage-15.1" remote="github.com" />
+
+<!-- Common -->
+<project path="device/motorola/msm8916-common" name="moto8916/android_device_motorola_msm8916-common" revision="lineage-15.1" remote="github.com"/>
+<project path="kernel/motorola/msm8916" name="moto8916/android_kernel_motorola_msm8916" revision="lineage-15.1-new" remote="github.com"/>
+<project path="vendor/motorola" name="moto8916/proprietary_vendor_motorola" revision="lineage-15.1-new" remote="github.com"/>
+
+</manifest>
