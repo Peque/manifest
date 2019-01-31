@@ -5,6 +5,7 @@
 
 <!-- LineageOS -->
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-15.1" remote="github.com" />
+<project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-15.1" remote="github.com" />
 
 <!-- Devices -->
 <project path="device/motorola/osprey" name="moto8916/android_device_motorola_osprey" revision="lineage-15.1" remote="github.com" />
